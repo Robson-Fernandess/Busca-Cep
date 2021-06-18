@@ -1,0 +1,79 @@
+#buscaCep {
+  margin-top: 20px;
+}
+#buscaCep input[type="text"][readonly] {
+  background: #ebe8e8;
+}
+#buscaCep input {
+  font-weight: bold;
+  padding-left: 20px;
+}
+#buscaCep label {
+  text-transform: uppercase;
+  color: #000;
+  margin-top: 5px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.formulario input[type="text"] {
+  padding: 5px 0;
+  border: solid 2px #f3c53c;
+  padding-left: 20px;
+}
+.btn {
+  margin-top: 10px;
+  margin-right: 30px;
+}
+.form-group {
+  padding: 12px 0;
+}
+.container {
+  border-bottom: solid 15px #f2f2f2;
+  box-shadow: 0px 65px #f5f5f5;
+  background: #f5f5f5;
+}
+.consultarCep::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 120px;
+  background: white;
+  margin: 10px auto;
+}
+.consultarCep {
+  text-align: center;
+  /* background: green; */
+  background: #5bbe5c;
+  padding: 20px 0;
+}
+#btc {
+  font-size: 15px;
+  color: white;
+}
+#btc.activer {
+  font-size: 15px;
+  color: #f3c53c;
+}
+.bitcoin {
+  background: rgb(134, 125, 125);
+  padding: 12px 0;
+  text-align: center;
+  color: #f3c53c;
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/* .table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th 
+{
+  padding: 10px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+} */
